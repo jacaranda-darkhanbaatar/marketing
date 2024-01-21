@@ -23,34 +23,25 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar fixed top-0 w-full">
-      <div className="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-        <a
-          class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
-          href="index.html"
-        >
-          <img src="images/logo.svg" alt="alternative" class="h-8" />
+    <nav>
+      <div>
+        <a href="index.html">
+          <img src="images/logo.svg" alt="alternative" />
         </a>
-        <div className="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center">
-          <ul className="pl-0 mt-3 mb-2 ml-auto flex list-none  flex-row">
+        <div>
+          <ul>
             {menus.map((menu) => (
               <li>
-                <a
-                  href={`#${menu.link}`}
-                  className="nav-link page-scroll active px-3 py-2 text-"
-                >
-                  {menu.text}
-                </a>
+                <a href={`#${menu.link}`}>{menu.text}</a>
               </li>
             ))}
             <li>
-                <a
-                  href={`images/todo.png`}
-                  className="nav-link page-scroll active px-3 py-2 text-"
-                >
-                  Instruction
-                </a>
-              </li>
+              <a
+                href={`images/todo.png`}                
+              >
+                Instruction
+              </a>
+            </li>
           </ul>
         </div>
       </div>
