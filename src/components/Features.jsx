@@ -1,7 +1,7 @@
 const Features = () => {
   const features = [
     {
-      image: "images/features-icon-1.svg",
+      image: "images/features-icon-1.svg " ,
       title: "Platform Integration",
       description:
         "You sales force can use the app on any smartphone platform without compatibility issues",
@@ -39,11 +39,11 @@ const Features = () => {
   ];
   return (
     <div id="features">
-      <div className="card">
+      <div className="grid grid-cols-3">
         {features.map((feature) => (
-          <div>
+          <div className="  max-w-xs">
             <div>
-              <img src={feature.image} alt={feature.title} />
+              <img src={feature.image} alt={feature.title} className="h-28 " />
             </div>
             <div>
               <h5>{feature.title}</h5>

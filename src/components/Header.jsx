@@ -2,10 +2,12 @@ import { DiApple, DiAndroid } from "react-icons/di";
 
 const Header = () => {
   return (
-    <header id="header">
-      <div>
+    <header id="header" className="bg-gradient-to-b from-sky-200 p-28">
+      <div className="flex justify-between">
         <div>
-          <h1>Team management mobile application</h1>
+          <h1 className="font-bold text-5xl">Team management</h1>
+            
+           <h1 className="font-bold text-5xl"> mobile application</h1>
           <p>
             Start getting things done together with your team based on Pavo's
             revolutionary team management features
@@ -20,7 +22,7 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <img src="images/header-smartphone.png" alt="alternative" />
+          <img src="images/header-smartphone.png" alt="alternative" className=" absolute right-20 top-50"/>
         </div>
       </div>
     </header>
