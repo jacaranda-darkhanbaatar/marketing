@@ -23,15 +23,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
-      <div>
+    <nav className="fixed w-full top-0">
+      <div className=" container mx-auto flex justify-between ">
         <a href="index.html">
-          <img src="images/logo.svg" alt="alternative" />
+          <img src="images/logo.svg" alt="alternative" className="h-8" />
         </a>
         <div>
-          <ul>
+          <ul className="flex ">
             {menus.map((menu) => (
-              <li>
+              <li className="px-3 py-2 font-bold text-gray-600 hover:text-pink-500">
                 <a href={`#${menu.link}`}>{menu.text}</a>
               </li>
             ))}
