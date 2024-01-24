@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <div>
+    <div className="text-4xl mx-80 text-center text-wrap mt-40">
       <div>
         <p>
           Team management mobile apps don’t get better than Pavo. It’s probably

@@ -38,16 +38,16 @@ const Features = () => {
     },
   ];
   return (
-    <div id="features">
-      <div className="card">
+    <div id="features" className="mt-44 mb-40 mx-96">
+      <div className="grid grid-cols-3 place-content-center gap-x-4 gap-y-8">
         {features.map((feature) => (
-          <div>
-            <div>
-              <img src={feature.image} alt={feature.title} />
+          <div className="bg-sky-50 border border-transparent rounded-2xl p-10">
+            <div class="flex justify-center items-center mb-5" >
+              <img src={feature.image} alt={feature.title}  className="h-16 w-16"/>
             </div>
             <div>
-              <h5>{feature.title}</h5>
-              <p>{feature.description}</p>
+              <h5 className="font-bold text-xl text-center mb-2">{feature.title}</h5>
+              <p className="text-slate-500 text-lg text-center">{feature.description}</p>
             </div>
           </div>
         ))}
