@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full top-0">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex justify-between max-w-6xl">
         <a href="index.html">
           <img src="images/logo.svg" alt="alternative" className="size-24 ml-4 mt-1" />
         </a>
