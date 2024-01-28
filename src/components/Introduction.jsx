@@ -2,7 +2,7 @@ const Introduction = () => {
   return (
     <div>
       <div>
-        <p>
+        <p className="m-auto text-center font-gray-700 text-4xl container">
           Team management mobile apps don’t get better than Pavo. It’s probably
           the best app in the world for this purpose. Don’t hesitate to give it
           a try today and you will fall in love with it
