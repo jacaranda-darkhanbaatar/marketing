@@ -2,8 +2,8 @@ import { DiApple, DiAndroid } from "react-icons/di";
 
 const Header = () => {
   return (
-    <header id="header">
-      <div className="flex flex-between mt-40 items-center">
+    <header id="header" className="bg-gradient-to-b from-sky-200 py-28 md:pt-36 xl:pt-44">
+      <div className="flex flex-between items-center">
         <div className="ml-40">
           <h1 className="font-bold text-6xl mb-7 text-balance">
             Team management mobile application

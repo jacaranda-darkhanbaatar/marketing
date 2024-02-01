@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full top-0">
+    <nav className="fixed w-full top-0 right-0 left-0 bg-transparent px-0">
       <div className="flex justify-between">
         <a href="index.html">
           <img
@@ -44,9 +44,7 @@ const Navbar = () => {
                 <a href={`#${menu.link}`}>{menu.text}</a>
               </li>
             ))}
-            <li>
-              
-            </li>
+            <li></li>
           </ul>
         </div>
       </div>
