@@ -19,37 +19,39 @@ const Footer = () => {
             email@domain.com
           </a>
         </h4>
-        <div className="block text-center">
-          <span className="inline-block w-[2em] mb-[1.25rem] mr-[0.375rem] text-[1.5rem] h-[2em] leading-[2em] align-middle">
-            <a>
-              <FaCircle className="text-white hover:text-black duration-200 text-[2em] text-center" />
-              <FaFacebookF className="text-black hover:text-white duration-200 text-center"/>
+        <div className="flex justify-center items-center">
+          <div className="grid grid-cols-5 gap-5">
+            <a
+              href="#"
+              className="bg-white rounded-full p-2 hover:bg-black text-black hover:text-white duration-200"
+            >
+              <FaFacebookF size={25} />
             </a>
-          </span>
-          <span className="inline-block w-[2em] mb-[1.25rem] mr-[0.375rem] text-[1.5rem] h-[2em] leading-[2em] align-middle">
-            <a>
-              <FaCircle className="text-white hover:text-black duration-200 text-[2em] text-center" />
-              <FaTwitter className="text-black hover:text-white duration-200 text-center" />
+            <a
+              href="#"
+              className="bg-white rounded-full p-2 hover:bg-black text-black hover:text-white duration-200"
+            >
+              <FaTwitter size={25} />
             </a>
-          </span>
-          <span className="inline-block w-[2em] mb-[1.25rem] mr-[0.375rem] text-[1.5rem] h-[2em] leading-[2em] align-middle">
-            <a>
-              <FaCircle className="text-white hover:text-black duration-200 text-[2em] text-center" />
-              <FaPinterestP className="text-black hover:text-white duration-200 text-center" />
+            <a
+              href="#"
+              className="bg-white rounded-full p-2 hover:bg-black text-black hover:text-white duration-200"
+            >
+              <FaPinterestP size={25} />
             </a>
-          </span>
-          <span className="inline-block w-[2em] mb-[1.25rem] mr-[0.375rem] text-[1.5rem] h-[2em] leading-[2em] align-middle">
-            <a>
-              <FaCircle className="text-white hover:text-black duration-200 text-[2em] text-center" />
-              <FaInstagram className="text-black hover:text-white duration-200 text-center" />
+            <a
+              href="#"
+              className="bg-white rounded-full p-2 hover:bg-black text-black hover:text-white duration-200"
+            >
+              <FaInstagram size={25} />
             </a>
-          </span>
-          <span className="inline-block w-[2em] mb-[1.25rem] mr-[0.375rem] text-[1.5rem] h-[2em] leading-[2em] align-middle">
-            <a>
-              <FaCircle className="text-white hover:text-black duration-200 text-[2em] text-center" />
-              <FaYoutube className="text-black hover:text-white duration-200 text-center" />
+            <a
+              href="#"
+              className="bg-white rounded-full p-2 hover:bg-black text-black hover:text-white duration-200"
+            >
+              <FaYoutube size={25} />
             </a>
-          </span>
+          </div>
         </div>
       </div>
     </div>

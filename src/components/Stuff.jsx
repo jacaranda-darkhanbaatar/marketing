@@ -54,7 +54,7 @@ const Stuff = () => {
               Ready out-of-the-box with minor setup settings
             </li>
           </ul>
-          <div className="mt-5">
+          <div className="mt-5 flex">
             <a
               className="inline-block leading-none border border-transparent bg-indigo-600 rounded-full text-white font-bold px-10 py-4 mr-4 hover:border-indigo-600 hover:bg-transparent hover:text-indigo-600 duration-300"
               href="#Light"

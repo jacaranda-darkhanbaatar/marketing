@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full top-0 right-0 left-0 bg-transparent px-0">
+    <nav className="fixed w-full top-0 right-0 left-0 px-0">
       <div className="flex justify-between">
         <a href="index.html">
           <img

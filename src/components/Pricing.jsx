@@ -40,20 +40,26 @@ const Pricing = () => {
   return (
     <div
       id="pricing"
-      className="pt-32 bg-cover text-center justify-center items-center"
-      style={{ backgroundImage: "url(images/pricing-background.jpg)" }}
+      className="relative bg-cover text-center flex justify-center items-center pt-32"
+      style={{
+        backgroundImage:
+          "linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url(images/pricing-background.jpg)",
+      }}
     >
+      <div className="absolute bottom-0 h-40 w-full bg-white"></div>
       <div className="px-4 pb-px sm:px-8 max-w-6xl ">
-        <h1 className="mb-2.5 text-white max-w-xl text-4xl font-bold">
-          Pricing options for all budgets
-        </h1>
+        <div className="flex justify-center items-center">
+          <h1 className="mb-2.5 text-white max-w-xl text-4xl font-bold">
+            Pricing options for all budgets
+          </h1>
+        </div>
         <p className="mb-16 text-white lg:max-w-3xl lg:mx-auto">
           Our pricing plans are setup in such a way that any user can start
           enjoying Pavo without worrying so much about costs. They are flexible
           and work for any type of industry.
         </p>
         {card.map((m) => (
-          <div className="w-80 inline-block max-w-full bg-white mb-24 mx-5 border-solid rounded-lg border-slate-400">
+          <div className="relative w-80 inline-block max-w-full bg-white mb-24 mx-5 border-solid 1px rounded-lg border-slate-400 outline outline-1 outline-slate-400">
             <div className="pt-12 px-7 pb-9">
               <div className="mb-4 text-pink-500 text-2xl text-center font-bold">
                 {m.title}
@@ -88,7 +94,7 @@ const Pricing = () => {
                   <div className="flex ml-1">{m.four}</div>
                 </li>
               </ul>
-              <div className="absolute text-center ">
+              <div className="absolute right-0 left-0 bottom-[-1.5rem] text-center">
                 <a className="inline-block py-3 px-9 border 1px border-transparent rounded-[32px] bg-purple-600 text-white text-sm hover:bg-white hover:text-purple-600 hover:border-purple-600 font-bold duration-300">
                   Download
                 </a>
