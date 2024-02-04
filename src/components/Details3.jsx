@@ -17,8 +17,8 @@ const Details3 = () => {
                 <div className="col-span-5">
                     <div className="mb-16">
                         <h2 className="font-bold text-3xl mb-6">{details.title}</h2>
-                        <p className="mb-4">{details.description_1}</p>
-                        <p className="mb-4">{details.description_2}</p>
+                        <p className="mb-4 text-gray-500 text-lg">{details.description_1}</p>
+                        <p className="mb-4 text-gray-500 text-lg">{details.description_2}</p>
                     </div>
                 </div>
                 <div className="col-span-7">

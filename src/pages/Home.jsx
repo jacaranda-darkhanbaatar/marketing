@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Header from "../components/Header";
 import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
+import Pricing from "../components/Pricing";
 import TeamMates from "../components/TeamMates";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     <Details3 />
     <Counter />
     <TeamMates />
+    <Pricing />
   </div>;
 };
 

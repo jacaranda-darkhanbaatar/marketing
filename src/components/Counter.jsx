@@ -41,7 +41,7 @@ const Counter = () => {
 
 
     return (
-        <div className=" flex container mx-auto max-w-6xl py-28">
+        <div className=" flex container mx-auto max-w-6xl justify-between py-28">
 
             {counter.map((counter) => (
                 <div className=" p-8">
