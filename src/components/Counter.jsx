@@ -8,7 +8,7 @@ const AnimatedNumber = ({ number }) => {
         config:{mass:1, tension:20, friction:10},
     })
 
-    return <animated.div>{too.to((n) => n.toFixed(0))}</animated.div>
+    return <animated.div className="text-6xl font-bold">{too.to((n) => n.toFixed(0))}</animated.div>
 };
 
 const Counter = () => {
@@ -41,7 +41,7 @@ const Counter = () => {
             <div className="grid grid-cols-5 gap-9 px-40">
                 {counter.map((counter) => (
                     <div className="p-8">
-                        <div className="flex-row">
+                        <div className="flex flex-col  items-center">
                            <AnimatedNumber number={counter.number}/>
                             <div className="p-3">{counter.description}</div>
                         </div>

@@ -12,7 +12,7 @@ const Header = () => {
             Start getting things done together with your team based on Pavo's                                                
             revolutionary team management features
           </p>
-          <a className="inline-block leading-none pt-4 rounded-full  bg-purple-500 px-3 py-4 text-white hover:bg-transparent hover:border-2 hover:border-purple-500 mr-3 hover:text-purple-500"  href="#download-ios">
+          <a className="inline-block leading-none pt-4 rounded-full  bg-indigo-700 px-3 py-4 text-white hover:bg-transparent hover:border-2 hover:border-indigo-700 mr-3 hover:text-indigo-700"  href="#download-ios">
             <DiApple size={25}  className="inline-block"/>
             Download
           </a>
