@@ -13,15 +13,15 @@ const Header = () => {
             on Pavo's revolutionary team management features
           </p>
 
-          <a className="inline-block leading-none  bg-purple-700 rounded-full px-3 py-4 text-white hover:bg-transparent hover:border-2 hover:border-purple-500 mr-3 hover:text-purple-500" href="#download-ios">
-            <DiApple size={25} className="inline-block" />
+          <button className="btn btn-primary px-9 py-3" href="#download-ios">
+            <DiApple size={25} className="inline-block  mb-1" />
             Download
-          </a>
+          </button>
           
-            <a className="inline-block leading-none  bg-pink-500 rounded-full py-3 px-4 text-white hover:bg-transparent hover:border-2 hover:border-pink-500 hover:text-pink-500" href="#download-android">
+            <button href="#download-android" className="btn btn-secondary px-9 py-3 ml-3">
               <DiAndroid size={25} className="inline-block" />
               Download
-            </a>
+            </button>
          
 
         </div>
@@ -29,6 +29,7 @@ const Header = () => {
           <img src="images/header-smartphone.png" alt="alternative" />
         </div>
       </div>
+     
     </header>
   );
 };

@@ -29,7 +29,7 @@ const Navbar = () => {
           <img src="images/logo.svg" alt="alternative" className="size-24 ml-4 mt-1" />
         </a>
         <div>
-          <ul>
+          <ul className="flex hidden md:block">
             {menus.map((menu) => (
               <li className="inline-block space-x-4 px-5 mt-10 hover:text-rose-400">
                 <a href={`#${menu.link}`}>{menu.text}</a>

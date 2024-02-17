@@ -39,7 +39,7 @@ const TeamMates = () => {
 
     ];
     return (
-        <div className="container mx-auto  bg-sky-50 p-20">
+        <div className="bg-sky-50 p-20">
             <h1 className="font-bold text-4xl mb-20 text-center">What do users think about Pavo</h1>
             <Swiper modules={[Navigation, Autoplay]}
                 navigation={true}
@@ -54,8 +54,7 @@ const TeamMates = () => {
 
                 }}
                 
-            >
-               
+            >              
                 {data.map((item) => (
                     <SwiperSlide>
                         <div>
@@ -64,7 +63,7 @@ const TeamMates = () => {
                                 <img src={item.image} alt=""  className="rounded-full size-20" />
                             </div>
                             
-                            <div className="mb-4 text-gray-500 text-md text-center">{item.description}</div>
+                            <div className="mb-4 text-gray-500 text-md text-center px-20">{item.description}</div>
                             <div className="italic font-bold text-center ">{item.name}</div>
                         </div>
                     </SwiperSlide>

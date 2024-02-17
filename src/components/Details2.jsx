@@ -24,6 +24,10 @@ const Details2 = () => {
                     <div>
                         {details.descriptions.map(desc => <div className="flex items-center p-2 mb-4 text-gray-500 text-lg"><IoIosArrowForward  className="text-indigo-700"/><div>{desc}</div></div>)}
                     </div>
+                    <div>
+                        <button className="btn btn-primary py-2 px-9 ml-2">Lightbox</button>
+                        <button className="btn btn-outline py-2 px-10 ml-3">Details</button>
+                    </div>
                 </div>
 
             </div>
