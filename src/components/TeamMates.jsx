@@ -1,4 +1,4 @@
-import { Navigation, Pagination , Autoplay} from "swiper/modules"
+import { Navigation, Pagination, Autoplay } from "swiper/modules"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,14 +8,36 @@ import "swiper/css/pagination";
 
 const TeamMates = () => {
     const data = [
-        "Slide1",
-        "Slide2",
-        "Slide3",
-        "Slide4",
-        "Slide5",
-        "Slide6",
-        "Slide7",
-        "Slide8",
+        {
+            image: "images/testimonial-1.jpg",
+            description: "It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great",
+            name: "Jude Thorn - Designer",
+        },
+        {
+            image: "images/testimonial-2.jpg",
+            description: "We were so focused on launching as many campaigns as possible that we've forgotten to target our loyal customers",
+            name: "Roy Smith - Developer",
+        },
+        {
+            image: "images/testimonial-3.jpg",
+            description: "I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy",
+            name: "Marsha Singer - Marketer",
+        },
+        {
+            image: "images/testimonial-4.jpg",
+            description: "We've been waiting for a powerful piece of software that can help businesses manage their marketing projects",
+            name: "Tim Shaw - Designer",
+        },
+        {
+            image: "images/testimonial-5.jpg",
+            description: "Searching for a great prototyping and layout design app was difficult but thankfully I found app suite quickly",
+            name: "Lindsay Spice - Marketer",
+        },
+        {
+            image: "images/testimonial-6.jpg",
+            description: "The app support team is amazing. They've helped me with some issues and I am so grateful to the entire team",
+            name: "Ann Blake - Developer",
+        },
     ];
     return (
         <div className="container mx-auto">
@@ -28,14 +50,15 @@ const TeamMates = () => {
                 slidesPerView={3}
                 loop={true}
                 autoplay={{
-                    delay:2500,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
+                className="bg-sky-50"
 
             >
                 {data.map((item) => (
                     <SwiperSlide>
-                        <div className="bg-sky-50 p-28">{item}</div>
+                        <img src={item.image} className="rounded-full size-24 h-24"/> 
                     </SwiperSlide>
                 ))}
             </Swiper>

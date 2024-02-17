@@ -28,7 +28,7 @@ const Navbar = () => {
         <a href="index.html">
           <img src="images/logo.svg" alt="alternative" className="h-8" />
         </a>
-        <div>
+        <div className="hidden  md:block">
           <ul className="flex ">
             {menus.map((menu) => (
               <li className="px-3 py-2 font-bold text-gray-600 hover:text-pink-500">
