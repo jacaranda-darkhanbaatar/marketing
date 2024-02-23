@@ -42,31 +42,21 @@ const Stuff = () => {
           </h1>
           <ul className="mb-7 space-y-2 text-slate-500 text-2xl mr-16">
             <li className="flex">
-              <FaChevronRight  className="text-purple-500 text-sm mt-2" />
+              <FaChevronRight className="text-purple-500 text-sm mt-2" />
               Features that will help you and your marketers
             </li>
             <li className="flex">
-              <FaChevronRight  className="text-purple-500 text-sm mt-2" />
+              <FaChevronRight className="text-purple-500 text-sm mt-2" />
               Smooth learning curve due to the knowledge base
             </li>
             <li className="flex">
-              <FaChevronRight  className="text-purple-500 text-sm mt-2" />
+              <FaChevronRight className="text-purple-500 text-sm mt-2" />
               Ready out-of-the-box with minor setup settings
             </li>
           </ul>
-          <div className="mt-5 flex">
-            <a
-              className="inline-block leading-none border border-transparent bg-indigo-600 rounded-full text-white font-bold px-10 py-4 mr-4 hover:border-indigo-600 hover:bg-transparent hover:text-indigo-600 duration-300"
-              href="#Light"
-            >
-              Lightbox
-            </a>
-            <a
-              className="inline-block leading-none border border-slate-600 bg-transparent rounded-full text-slate-600 font-bold px-10 py-4 mr-72 hover:border-transparent hover:bg-slate-600 hover:text-white duration-300"
-              href="#Detail"
-            >
-              Details
-            </a>
+          <div className="mt-5 flex mr-80">
+            <button className="btn btn-primary mr-4 px-8 py-4 font-semibold">Lightbox</button>
+            <button className="btn btn-outline px-8 py-4 font-semibold">Details</button>
           </div>
         </div>
       </div>
