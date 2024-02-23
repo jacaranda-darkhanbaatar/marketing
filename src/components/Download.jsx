@@ -20,14 +20,14 @@ const Download = () => {
             Team management mobile applications don’t get much better than Pavo.
             Download it today
           </p>
-          <a className="inline-block py-3 px-9 border border-transparent rounded-[32px] bg-purple-600 text-white text-sm hover:bg-white hover:text-purple-600 hover:border-purple-600 font-bold duration-300 mr-[0.5rem]">
+          <button className="btn btn-primary mr-4 px-10 py-3">
             <DiApple size={25} className="inline-block mr-1 mb-1" />
             Download
-          </a>
-          <a className="inline-block py-3 px-9 border border-transparent rounded-[32px] bg-pink-500 text-white text-sm hover:bg-white hover:text-pink-500 hover:border-pink-500 font-bold duration-300 ml-[0.5rem]">
+          </button>
+          <button className="btn btn-secondary px-10 py-3">
             <DiAndroid size={25} className="inline-block mr-1 mb-1" />
             Download
-          </a>
+          </button>
         </div>
       </div>
     </div>
