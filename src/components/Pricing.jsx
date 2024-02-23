@@ -40,7 +40,7 @@ const Pricing = () => {
   return (
     <div
       id="pricing"
-      className="relative bg-cover text-center flex justify-center items-center pt-32"
+      className="relative bg-cover text-center flex justify-center items-center pt-32 z-0"
       style={{
         backgroundImage:
           "linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url(images/pricing-background.jpg)",
@@ -95,9 +95,9 @@ const Pricing = () => {
                 </li>
               </ul>
               <div className="absolute right-0 left-0 bottom-[-1.5rem] text-center">
-                <a className="inline-block py-3 px-9 border 1px border-transparent rounded-[32px] bg-purple-600 text-white text-sm hover:bg-white hover:text-purple-600 hover:border-purple-600 font-bold duration-300">
+                <button className="btn btn-pricing py-3 px-10">
                   Download
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -108,3 +108,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
