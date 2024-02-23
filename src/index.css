@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply inline-block leading-none border rounded-full font-bold duration-300;
+    }
+    .btn-primary {
+        @apply border-transparent bg-indigo-600 text-white hover:border-indigo-600 hover:bg-transparent hover:text-indigo-600;
+    }
+    .btn-secondary {
+        @apply border-transparent bg-pink-500 text-white hover:border-pink-500 hover:bg-transparent hover:text-pink-500;
+    }
+    .btn-outline {
+        @apply border-slate-800 bg-transparent text-slate-800 hover:border-transparent hover:bg-slate-800 hover:text-white;
+    }
+    .btn-pricing {
+        @apply border-transparent rounded-[32px] bg-purple-600 text-white text-sm hover:bg-white hover:text-purple-600 hover:border-purple-600;
+    }
+}
