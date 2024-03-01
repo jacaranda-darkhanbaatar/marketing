@@ -38,7 +38,7 @@ const Counter = () => {
     return (
         <div id="counter" className="container mx-auto pt-20">
           
-            <div className="grid grid-cols-5 gap-9 px-40">
+            <div className="grid grid-cols-5 gap-9 px-40 sm:grid-cols-1">
                 {counter.map((counter) => (
                     <div className="p-8">
                         <div className="flex flex-col  items-center">

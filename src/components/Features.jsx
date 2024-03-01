@@ -39,7 +39,7 @@ const Features = () => {
   ];
   return (
     <div id="features" className=" container mx-auto pt-20">
-      <div className="grid grid-cols-3 gap-6 px-40 ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-24 md:px-32 grid-cols-1">
         {features.map((feature) => (
           <div className=" bg-sky-100 text-center rounded-xl p-8 ">
             <div className="flex justify-center ">

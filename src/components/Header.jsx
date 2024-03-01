@@ -3,8 +3,8 @@ import { DiApple, DiAndroid } from "react-icons/di";
 const Header = () => {
   return (
     <header id="header" className="bg-gradient-to-b from-sky-200 p-28">
-      <div className="container mx-auto flex justify-between">
-        <div className="mt-32">
+      <div className="container mx-auto  flex-wrap lg:flex">
+        <div className="mt-32 w-full lg:w-1/2">
           <h1 className="font-bold text-6xl my-67">
             Team management 
             mobile application</h1>
@@ -21,7 +21,7 @@ const Header = () => {
             Download
           </a>
         </div>
-        <div className="w-full">
+        <div className="w-full lg:w-1/2">
           <img src="images/header-smartphone.png" alt="alternative" />
         </div>
       </div>

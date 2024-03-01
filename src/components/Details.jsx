@@ -15,7 +15,7 @@ const Details = () => {
         },
     ];
     return (<header id="details">
-        <div className="container mx-auto flex justify-between pt-32 px-4 gri grid-cols-12 gap-12 pb-10">
+        <div className="container mx-auto lg:flex   justify-between pt-32 px-4 gri grid-cols-12 gap-12 pb-10">
 
             <div className="mt-32 px-32  text-sm leading-3">
                 <h1 className="font-bold text-5xl my-67">
@@ -33,14 +33,14 @@ const Details = () => {
                 </p>
 
             </div>
-            <div className="w-full  pt-20 inline ">
+            <div className="w-full  lg:p-0 p-24  inline ">
                 <img src="images/details-1.jpg" alt="alternative" />
             </div>
 
         </div>
-        <div className="container mx-auto flex justify-between pt-32 px-4 gri grid-cols-12 gap-12 pb-10">
-            <div className="w-full pt-20 inline"><img src="images/details-2.jpg" alt="alternative" /></div>
-            <div className=" pt-30 mt-32 px-32 w-full">
+        <div className="container mx-auto   pt-32 px-4 grid grid-cols-1 lg:grid-cols-2  pb-10">
+            <div className="pt-20 inline"><img src="images/details-2.jpg" alt="alternative" /></div>
+            <div className=" pt-30 mt-32 lg:px-32 px-38 w-full">
                 <div className="mt-12">
                     <h1 className="mb-6 font-bold text-5xl">Instant results for the marketing department</h1>
                     {/* <ul className="list mb-7 space-y-2">
@@ -102,12 +102,12 @@ const Details = () => {
 
                 </h1>
                 <p className="pt-4 text-gray-500 grid text-2xl ">
-                Get a glimpse of what this app can do for your marketing automation and understand why 
-                current users are so excited when using Pavo together with their teams.
+                    Get a glimpse of what this app can do for your marketing automation and understand why
+                    current users are so excited when using Pavo together with their teams.
                 </p>
                 <p className="pt-4 text-gray-500 grid text-2xl ">
-                We will promptly answer any questions and honor your requests 
-                based on the service level agreement
+                    We will promptly answer any questions and honor your requests
+                    based on the service level agreement
                 </p>
 
             </div>
