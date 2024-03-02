@@ -11,7 +11,7 @@ const Details3 = () => {
 
     return (
         <div id="details" className="pt-12 pb-16 container mx-auto max-w-6xl">
-            <div className="px-4 grid grid-cols-12 gap-x-12">
+            <div className="px-4 lg:grid lg:grid-cols-12 xl:gap-x-12 text-center md:text-left">
 
                 
                 <div className="col-span-5">

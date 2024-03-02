@@ -39,7 +39,7 @@ const Pricing = () => {
         <div className="relative flex justify-center items-center bg-cover pt-32 text-center" style={{ backgroundImage: 'linear-gradient(rgba(50,60,70,0.9), rgba(50,60,70,0.9)),   url(images/pricing-background.jpg)' }} >
             <div className="absolute bottom-0 h-40 w-full bg-white"></div>
             <div>
-                <h2 className="pt-20 text-center text-4xl font-bold text-white">Pricing options for all budgets</h2>
+                <h2 className=" text-center text-4xl font-bold text-white pb-20">Pricing options for all budgets</h2>
                 {pricing.map((pricing) => (
                     <div className="relative inline-block w-80 bg-white max-w-full border border-solid rounded-lg border-slate-400 mb-24 mx-5 ">
                         <div className="pt-12 px-7 pb-9">

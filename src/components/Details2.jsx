@@ -13,7 +13,7 @@ const Details2 = () => {
 
     return (
         <div id="details" className="pt-12 pb-16 container mx-auto max-w-6xl">
-            <div className=" px-4 grid grid-cols-12 gap-x-12">
+            <div className=" px-4 lg:grid lg:grid-cols-12 xl:gap-x-12 text-center md:text-left">
 
                 <div className="col-span-7">
                     <img src={details.image} alt={details.title} />
@@ -26,7 +26,7 @@ const Details2 = () => {
                     </div>
                     <div>
                         <button className="btn btn-primary py-2 px-9 ml-2">Lightbox</button>
-                        <button className="btn btn-outline py-2 px-10 ml-3">Details</button>
+                        <button className="btn btn-outline py-2 px-10 lg:ml-4 mt-5 sm:mt-3  ml-1">Details</button>
                     </div>
                 </div>
 

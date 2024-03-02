@@ -41,17 +41,18 @@ const Counter = () => {
 
 
     return (
-        <div className=" flex container mx-auto max-w-6xl justify-between py-28">
-
-            {counter.map((counter) => (
-                <div className=" p-8">
-                    <div className="text-center font-bold text-5xl">
-                        <AnimatedNumber number={counter.value} />
+        <div className="container mx-auto md:max-w-6xl">
+            <div className="grid sm:grid-cols-3 md:grid-cols-5 md:gap-x-3 py-28 md:flex-nowrap justify-items-center">
+                {counter.map((counter) => (
+                    <div className=" p-8 ">
+                        <div className="text-center font-bold text-5xl">
+                            <AnimatedNumber number={counter.value} />
+                        </div>
+                        <p className="text-gray-500 text-xl pt-4">{counter.info}</p>
                     </div>
-                    <p className="text-gray-500 text-xl pt-4">{counter.info}</p>
-                </div>
-            ))}
+                ))}
 
+            </div>
         </div>
     );
 }

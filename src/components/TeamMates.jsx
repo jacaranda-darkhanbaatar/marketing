@@ -40,18 +40,29 @@ const TeamMates = () => {
     ];
     return (
         <div className="bg-sky-50 p-20">
-            <h1 className="font-bold text-4xl mb-20 text-center">What do users think about Pavo</h1>
+            <h1 className="font-bold text-4xl mb-20 text-center ">What do users think about Pavo</h1>
             <Swiper modules={[Navigation, Autoplay]}
                 navigation={true}
                 
                 scrollbar={{ draggable: true }}
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={1}
                 loop={true}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
 
+                }}
+                breakpoints={{
+                   
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    }
                 }}
                 
             >              
