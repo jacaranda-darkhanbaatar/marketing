@@ -94,7 +94,7 @@ const Details = () => {
             </div>
 
         </div>
-        <div className="container mx-auto flex justify-between pt-32 px-4 gri grid-cols-12 gap-12 pb-10">
+        <div className="container mx-auto lg:flex justify-between pt-32 px-4  grid-cols-12 gap-12 pb-10  ">
 
             <div className="mt-32 px-32  text-sm leading-3">
                 <h1 className="font-bold text-5xl my-67">
@@ -111,7 +111,7 @@ const Details = () => {
                 </p>
 
             </div>
-            <div className="w-full  pt-20 inline ">
+            <div className=" w-full lg:p-0 p-24 inline">
                 <img src="images/details-3.jpg" alt="alternative" />
             </div>
         </div>

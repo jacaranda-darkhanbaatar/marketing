@@ -58,8 +58,11 @@ const TeamMates = () => {
             >
                 {data.map((item) => (
                     <SwiperSlide>
-                        <img src={item.image} className="  rounded-full size-24 h-24 m-auto place-items:center align-items:center"/> 
-                        <div className="pt-4 text-gray-500 grid text-1xl text-center w-64 size-40  mx-40 italic mb-3">{item.description}</div>
+                        <img src={item.image} className="  rounded-full size-24 h-24 mx-auto place-items:center align-items:center "/> 
+                        
+                        <div className="pt-4 text-gray-500 grid text-1xl text-center w-64 size-40  mx-40 italic mb-3 ">{item.description}</div>
+                        <div>{item.name}</div>
+                        
                     </SwiperSlide>
                 ))}
             </Swiper>
